@@ -34,7 +34,7 @@ With NTP servers:
     - hosts: all
       become: yes
       roles:
-      - { role: znz.timesyncd, timesyncd_ntp_servers: ['ntp.nict.jp', 'ntp.mfeed.ad.jp'] }
+      - { role: znz.timesyncd, timesyncd_ntp_servers: ['ntp.nict.jp', 'ntp.jst.mfeed.ad.jp'] }
 
 ## License
 
